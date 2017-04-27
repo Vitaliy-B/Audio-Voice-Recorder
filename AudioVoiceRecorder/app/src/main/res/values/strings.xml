@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Audio &amp; Voice Recorder</string>
+
+    <string name="text_preparing">Preparing..</string>
+    <string name="text_dots">..</string>
+    <string name="text_ready">Ready</string>
+    <string name="text_error">Error</string>
+    <string name="text_recording">Recording..</string>
+    <string name="text_playing">Playing..</string>
+    <string name="text_record">Record</string>
+    <string name="text_play">Play</string>
+    <string name="text_pause">Pause</string>
+    <string name="text_paused">Paused</string>
+    <string name="text_paused_rec">Paused recording</string>
+    <string name="text_paused_play">Paused playing</string>
+    <string name="text_stop">Stop</string>
+
+    <string name="text_records_list">Audio Records</string>
+
+    <string-array name="ar_spin_chart_type">
+        <item>Amplitude - Frequency</item>
+        <item>Magnitude - Frequency</item>
+        <item>Spectral Density - Frequency</item>
+    </string-array>
+
+    <string name="text_vsl_data_written">Visualization data saved to JSON and XML at </string>
+    <string name="text_service_conn_err">Can\'t connect to media service</string>
+    <string name="text_perm_record_required">Permission RECORD_AUDIO required to operate</string>
+    <string name="text_perm_write_required">Permission WRITE_EXTERNAL_STORAGE required to save audio files</string>
+    <string name="text_perm_required">Required permissions not granted</string>
+
+    <string name="text_err_player_start">Can\'t start player</string>
+    <string name="text_err_recorder_start">Can\'t start recorder</string>
+    <string name="text_err_recorder_stop">No valid audio/video data has been received</string>
+    <string name="text_err_no_audio_player">No appropriate audio player installed</string>
+    <string name="text_err_vsl_data">Visualization data not saved</string>
+</resources>

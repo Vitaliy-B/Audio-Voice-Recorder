@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linlayMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <ImageView
+        android:id="@+id/ivItemPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_play"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvItemText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@android:string/untitled" />
+
+    <ImageButton
+        android:id="@+id/ibItemOpenExt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:onClick="ibItemOpenExtClick"
+        app:srcCompat="@drawable/ic_launch_external"
+        tools:ignore="ContentDescription"
+        />
+
+    <ImageButton
+        android:id="@+id/ibItemDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ibItemDelClick"
+        app:srcCompat="@android:drawable/ic_delete"
+        tools:ignore="ContentDescription"
+        />
+</LinearLayout>
