@@ -5,6 +5,7 @@ Audio & Voice recorder for android, which uses background / foreground service, 
 
 -------------------------------------------
 Screenshots
+
  ![screenshot](https://raw.githubusercontent.com/Vitaliy-B/Audio-Voice-Recorder/master/data/AVR_scrsh_01_ready.png "screenshot")
  ![screenshot](https://raw.githubusercontent.com/Vitaliy-B/Audio-Voice-Recorder/master/data/AVR_scrsh_02_rec.png "screenshot")
  ![screenshot](https://raw.githubusercontent.com/Vitaliy-B/Audio-Voice-Recorder/master/data/AVR_scrsh_03_type.png "screenshot")
