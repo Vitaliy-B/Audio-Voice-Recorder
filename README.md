@@ -5,7 +5,6 @@ Audio & Voice recorder for android, which uses background / foreground service, 
 
 -------------------------------------------
 _Main features are:_
-* MVC architecture
 * foreground service
 * audio recording
 * saving audio to SD
